@@ -4,8 +4,7 @@
 #include "GameFramework/Actor.h"
 
 UCLASS()
-class YOURPLUGIN_API ABlenderInputHandler : public AActor
-{
+class YOURPLUGIN_API ABlenderInputHandler : public AActor{
     GENERATED_BODY()
 
 public:
