@@ -1,0 +1,15 @@
+{ "FileVersion": 3,
+  "Version": 1,
+  "FriendlyName": "Blender Manipulation Plugin",
+  "Description": "Plugin for Blender-like object manipulation in Unreal Engine.",
+  "Category": "Development",
+  "CreatedBy": "Preetham Pemmasani",
+  "Modules": [
+    {
+      "Name": "BlenderManipulationPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": ["Win64", "Mac"]
+    }
+  ]
+}
