@@ -1,5 +1,12 @@
 # b3d-nav
-An unreal engine plug-in for navigation like Blender
+b3d-nav is a utility plugin for Unreal Engine that brings Blender-like object manipulation controls directly into your Unreal Engine projects. Inspired by Blender's intuitive and efficient workflow, this plugin provides a modal mode interface for moving, rotating, and scaling objects with ease.
+
+Features:
+- Modal Mode Interface: Enter a modal mode with a single key press to perform object manipulation tasks.
+- Screen Space Manipulation: Move, rotate, and scale objects directly in screen space for precise control.
+- Axis Locking: Lock movement, rotation, or scaling to specific axes for fine-tuned adjustments.
+- Numeric Input: Input numeric values to specify precise transformations, such as distance, angle, or scaling factor.
+- Intuitive Controls: Mimics the familiar controls and workflow of Blender, making it easy for Blender users to transition to Unreal Engine.
 
 ## Installation
 1. Open your Unreal Engine project.
