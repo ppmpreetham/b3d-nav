@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "B3DNav",
+	"Description": "UE5 Plugin for Blender-like object manipulation",
+	"Category": "Other",
+	"CreatedBy": "Preetham",
+	"CreatedByURL": "https://www.github.com/ppmpreetham",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
