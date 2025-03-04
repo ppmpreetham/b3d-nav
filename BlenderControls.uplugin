@@ -2,16 +2,23 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "B3DNav",
+	"FriendlyName": "Blender Controls",
 	"Description": "UE5 Plugin for Blender-like object manipulation",
-	"Category": "Other",
-	"CreatedBy": "Preetham",
+	"Category": "Editor",
+	"CreatedBy": "ppmpreetham",
 	"CreatedByURL": "https://www.github.com/ppmpreetham",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
-	"CanContainContent": true,
+	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BlenderControls",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
 }
