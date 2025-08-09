@@ -446,13 +446,13 @@ bool FBlenderInputHandler::IsNumericKey(const FKeyEvent& KeyEvent, FString& OutD
 		OutDigit = TEXT("9");
 		return true;
 	}
-	else if (Key == EKeys::Period || Key == EKeys::NumPadPeriod)
+	else if (Key == EKeys::Period)
 	{
 		// Allow decimal point
 		OutDigit = TEXT(".");
 		return true;
 	}
-	else if (Key == EKeys::Hyphen || Key == EKeys::NumPadSubtract)
+	else if (Key == EKeys::Hyphen || Key == EKeys::Subtract)
 	{
 		// Allow negative numbers
 		OutDigit = TEXT("-");

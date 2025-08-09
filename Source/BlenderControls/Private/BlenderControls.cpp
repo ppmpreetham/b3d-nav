@@ -1,6 +1,7 @@
 #include "BlenderControls.h"
 #include "BlenderControlsCommands.h"
 #include "BlenderControlsStyle.h"
+#include "BlenderInputHandler.h"
 #include "LevelEditor.h"
 #include "Widgets/Docking/SDockTab.h"
 #include "ToolMenus.h"
@@ -56,7 +57,7 @@ void FBlenderControlsModule::RegisterMenus()
 	FToolMenuOwnerScoped OwnerScoped(this);
 
 	// Add to the toolbar
-	UToolMenu* ToolbarMenu = UToolMenus::Get()->ExtendMenu("LevelEditor.LevelEditorToolBar");
+	UToolMenu* ToolbarMenu = UToolMenus::Get()->ExtendMenu("LevelEditor.LevelEditorToolBar.User");
 	FToolMenuSection& Section = ToolbarMenu->FindOrAddSection("BlenderControls");
 	
 	Section.AddMenuEntryWithCommandList(FBlenderControlsCommands::Get().PluginAction, PluginCommands);

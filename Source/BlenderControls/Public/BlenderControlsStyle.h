@@ -8,6 +8,7 @@ class FBlenderControlsStyle
 public:
 	static void Initialize();
 	static void Shutdown();
+	static FName GetStyleSetName();
 	static void ReloadTextures();
 	static const ISlateStyle& Get();
 
